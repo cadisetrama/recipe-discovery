@@ -1073,6 +1073,8 @@ footer {
   padding: 5px;
 }
 
+/*----------------------------- Media queries ------------------------------*/
+
 @media only screen and (max-width: 1200px) {
   /* landing page */
   #first div.container {
@@ -1150,6 +1152,7 @@ footer {
   }
   #video-page::after {
     height: 130%;
+    z-index: -1;
   }
 
   /*Navbar*/
